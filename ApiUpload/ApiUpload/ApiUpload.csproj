@@ -10,6 +10,22 @@
         <PackageReference Include="DotNetEnv" Version="3.1.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
         <PackageReference Include="Npgsql" Version="9.0.3" />
+        <PackageReference Include="Swagger" Version="1.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="8.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="8.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="8.0.0" />
+        <None Update="config\bdd.env">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="config\path.env">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="config\url.env">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="config\certificat.env">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
 </Project>

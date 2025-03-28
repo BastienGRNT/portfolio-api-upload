@@ -6,8 +6,6 @@ public class Connection
 {
     public static NpgsqlConnection GetConnection()
     {
-        DotNetEnv.Env.Load();
-
         string host = DotNetEnv.Env.GetString("DB_HOST");
         string port = DotNetEnv.Env.GetString("DB_PORT");
         string database = DotNetEnv.Env.GetString("DB_DATABASE");
