@@ -10,6 +10,7 @@
 bdd.env
 path.env
 certificat.env
+url.env
 
 # Build results
 [Dd]ebug/

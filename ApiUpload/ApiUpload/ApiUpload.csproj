@@ -7,11 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="DotNetEnv" Version="3.1.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="_Sql\" />
+        <PackageReference Include="Npgsql" Version="9.0.3" />
     </ItemGroup>
 
 </Project>
