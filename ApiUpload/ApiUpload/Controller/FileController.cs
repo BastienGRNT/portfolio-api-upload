@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ApiUpload.Modele;
 using ApiUpload.Service;
-using Swashbuckle.AspNetCore.Annotations;
 
 namespace ApiUpload.Controller;
 
